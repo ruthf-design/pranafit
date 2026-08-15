@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RENACER AFTER 35™ — Método P.E.R.™ · Persona · Empresa · Resultado</title>
+<meta name="description" content="RENACER AFTER 35™: un proceso de 90 días para mujeres +35 que construyeron mucho y necesitan una forma diferente de sostenerlo. Método P.E.R.™ — Persona, Empresa, Resultado.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --verde:#3F5A50; --verde2:#54634F; --verded:#2C3F38; --salvia:#A8B5A2; --arena:#C6A46A;
+    --marfil:#F5F1EA; --beige:#E8DED1; --carbon:#2B2B27; --gris:#82827B; --blanco:#FDFCF9;
+  }
+  html{scroll-behavior:smooth}
+  body{font-family:'Lato',sans-serif;background:var(--marfil);color:var(--carbon);line-height:1.7}
+  h1,h2,h3,h4{font-family:'Playfair Display',serif}
+  section{padding:76px 24px}
+  .container{max-width:1000px;margin:0 auto}
+  .narrow{max-width:760px;margin:0 auto}
+
+  .pre{display:inline-block;color:var(--arena);font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:700;margin-bottom:16px}
+  .tag{display:inline-block;color:var(--arena);font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:700;margin-bottom:14px}
+  .title{font-size:clamp(26px,4.2vw,42px);line-height:1.2;color:var(--carbon);margin-bottom:16px}
+  .title em{color:var(--verde);font-style:italic}
+  .lead{font-size:17px;color:var(--gris);max-width:680px;font-weight:300;margin-bottom:20px}
+  p.body{font-size:16px;color:#4a4a44;margin-bottom:14px;max-width:680px}
+  p.body b{color:var(--carbon)}
+
+  /* CTA */
+  .cta-wrap{margin:30px 0 0}
+  .btn{display:inline-block;font-weight:700;font-size:14px;letter-spacing:.6px;text-transform:uppercase;text-decoration:none;border-radius:6px;transition:.2s;text-align:center;cursor:pointer;border:0}
+  .btn-apply{background:var(--arena);color:#fff;padding:18px 34px}
+  .btn-apply:hover{background:var(--verde);transform:translateY(-2px)}
+  .btn-big{font-size:16px;padding:22px 44px}
+  .btn-out{background:transparent;border:1.5px solid var(--arena);color:var(--arena);padding:16px 32px}
+  .btn-out:hover{background:var(--arena);color:#fff}
+  .micro{display:block;font-size:13px;color:var(--gris);margin-top:12px;font-weight:400;max-width:520px}
+  .dark .micro{color:rgba(245,241,234,.6)}
+  .cta .micro{color:rgba(63,90,80,.75)}
+
+  /* HERO */
+  .hero{background:var(--verde);color:var(--marfil);text-align:center;padding:70px 24px 64px}
+  .hero .pre{color:var(--beige);opacity:.9}
+  .hero h1{font-size:clamp(30px,5vw,52px);line-height:1.15;max-width:860px;margin:0 auto 20px}
+  .hero h1 em{color:var(--arena);font-style:italic}
+  .hero .sub{color:rgba(245,241,234,.85);font-size:clamp(16px,2.1vw,19px);max-width:660px;margin:0 auto 26px;font-weight:300}
+  .brandmark{display:inline-block;border:1px solid rgba(255,255,255,.22);border-radius:12px;padding:14px 26px;margin:0 auto 28px}
+  .brandmark .bm1{font-family:'Playfair Display',serif;font-size:20px;color:var(--arena);letter-spacing:1px}
+  .brandmark .bm2{font-size:12px;letter-spacing:2px;color:var(--beige);text-transform:uppercase;margin-top:2px}
+  .brandmark .bm3{font-size:11px;letter-spacing:4px;color:rgba(245,241,234,.7);text-transform:uppercase;margin-top:4px}
+  .hero .btn-apply{background:var(--arena)}
+  .hero .btn-apply:hover{background:#b08d4f}
+
+  /* VIDEO placeholder */
+  .vsl{max-width:720px;margin:6px auto 20px}
+  .ph-video{position:relative;width:100%;padding-top:56.25%;background:var(--verded);border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,.15)}
+  .ph-video .in{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:rgba(245,241,234,.75);text-align:center;padding:20px}
+  .ph-video .play{width:66px;height:66px;border-radius:50%;background:var(--arena);color:var(--verde);display:flex;align-items:center;justify-content:center;font-size:24px}
+  .ph-video .lbl{font-size:12px;letter-spacing:2px;text-transform:uppercase}
+  .ph-video .note{font-size:13px;color:rgba(245,241,234,.6)}
+
+  /* generic section eyebrow header block */
+  .head-c{text-align:center;max-width:760px;margin:0 auto 40px}
+  .head-c .lead{margin-left:auto;margin-right:auto}
+
+  /* DARK contrast section */
+  .dark{background:var(--verded);color:var(--marfil)}
+  .dark .tag{color:var(--arena)}
+  .dark .title{color:var(--marfil)}
+  .dark .title em{color:var(--arena)}
+  .dark p.body{color:rgba(245,241,234,.82)}
+  .dark p.body b{color:#fff}
+  .stack{max-width:640px}
+  .stack .line{font-size:17px;color:rgba(245,241,234,.9);padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+  .remate{font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(19px,2.6vw,26px);color:var(--arena);line-height:1.4;margin-top:26px;max-width:720px}
+
+  /* quote / destacado */
+  .quote{background:var(--beige);border-left:4px solid var(--arena);border-radius:8px;padding:30px 32px;max-width:760px;margin:8px auto 0}
+  .quote p{font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(18px,2.6vw,24px);color:var(--verde);line-height:1.45}
+  .quote small{display:block;margin-top:12px;color:var(--gris);font-style:normal;font-family:'Lato',sans-serif;font-size:12px;letter-spacing:.5px}
+
+  /* signal cards */
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-top:8px}
+  .card{background:var(--beige);border-radius:8px;padding:24px 24px;border-left:3px solid var(--salvia)}
+  .card p{font-family:'Playfair Display',serif;font-size:16px;font-style:italic;color:var(--carbon);line-height:1.5}
+
+  /* chips (falsa solución) */
+  .chips{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:760px;margin:0 auto 26px}
+  .chip{background:var(--marfil);border:1px solid var(--beige);border-radius:40px;padding:12px 22px;font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--verde2);font-weight:700}
+
+  /* P.E.R. cards */
+  .per-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media(max-width:820px){.per-grid{grid-template-columns:1fr}}
+  .per-card{background:var(--blanco);border-radius:12px;padding:32px 28px;border-top:4px solid var(--arena);box-shadow:0 6px 24px rgba(63,90,80,.06)}
+  .per-letter{width:54px;height:54px;border-radius:50%;background:var(--verde);color:var(--marfil);font-family:'Playfair Display',serif;font-size:26px;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+  .per-card .k{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--arena);font-weight:700;margin-bottom:6px}
+  .per-card h3{font-size:20px;color:var(--carbon);line-height:1.3;margin-bottom:14px}
+  .per-card .items{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .per-card .items span{background:var(--beige);color:var(--verde2);border-radius:6px;padding:6px 12px;font-size:12.5px}
+  .per-card .note{font-size:14px;color:var(--gris);font-style:italic;border-top:1px solid var(--beige);padding-top:14px}
+</style>
+</head>
+<body>
+<style>
+  /* territorios / mentores con foto */
+  .terr-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;max-width:900px;margin:0 auto}
+  @media(max-width:720px){.terr-grid{grid-template-columns:1fr}}
+  .terr-card{background:var(--blanco);border-radius:12px;overflow:hidden;box-shadow:0 6px 24px rgba(63,90,80,.06)}
+  .ph-photo{position:relative;width:100%;padding-top:66%;background:linear-gradient(135deg,var(--salvia),var(--verde2))}
+  .ph-photo span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.85);font-size:12px;letter-spacing:2px;text-transform:uppercase}
+  .terr-body{padding:24px 24px 26px}
+  .terr-body .who{font-family:'Playfair Display',serif;font-size:22px;color:var(--carbon)}
+  .terr-body .role{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--arena);font-weight:700;margin:4px 0 10px}
+  .terr-body .q{font-family:'Playfair Display',serif;font-style:italic;color:var(--verde);font-size:16px;margin-bottom:10px;line-height:1.4}
+  .terr-body p{font-size:14px;color:var(--gris)}
+  .terr-close{text-align:center;max-width:700px;margin:38px auto 0;font-family:'Playfair Display',serif;font-style:italic;color:var(--verde);font-size:clamp(18px,2.6vw,24px);line-height:1.5}
+
+  /* numbers block */
+  .nums{display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;margin:6px auto 34px}
+  .num{background:var(--blanco);border-radius:12px;padding:26px 30px;text-align:center;min-width:160px;box-shadow:0 6px 24px rgba(63,90,80,.06)}
+  .num b{display:block;font-family:'Playfair Display',serif;font-size:46px;color:var(--verde);line-height:1}
+  .num small{display:block;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gris);margin-top:8px}
+  .op{font-family:'Playfair Display',serif;font-size:36px;color:var(--arena)}
+  .breakdown{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;max-width:900px;margin:0 auto}
+  .bk{background:var(--marfil);border:1px solid var(--beige);border-radius:8px;padding:20px 22px;border-top:3px solid var(--arena)}
+  .bk .n{font-family:'Playfair Display',serif;font-size:20px;color:var(--carbon)}
+  .bk .a{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--arena);font-weight:700;margin:4px 0 6px}
+  .bk p{font-size:13px;color:var(--gris)}
+
+  /* directores destacados */
+  .dir-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:920px;margin:0 auto}
+  @media(max-width:720px){.dir-grid{grid-template-columns:1fr}}
+  .dir-card{background:var(--blanco);border-radius:14px;overflow:hidden;box-shadow:0 8px 30px rgba(63,90,80,.08)}
+  .dir-card .ph-photo{padding-top:80%}
+  .dir-body{padding:26px 28px 30px}
+  .dir-body h3{font-size:26px;color:var(--carbon)}
+  .dir-body .role{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--arena);font-weight:700;margin:6px 0 12px}
+  .dir-body p{font-size:14.5px;color:var(--gris);margin-bottom:14px}
+  .dir-body .q{font-family:'Playfair Display',serif;font-style:italic;color:var(--verde);font-size:18px;line-height:1.4;border-left:3px solid var(--arena);padding-left:14px}
+
+  /* equipo 4 */
+  .team{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;max-width:940px;margin:0 auto}
+  @media(max-width:720px){.team{grid-template-columns:1fr 1fr}}
+  .tm{background:var(--blanco);border-radius:10px;overflow:hidden;text-align:center;box-shadow:0 4px 18px rgba(63,90,80,.06)}
+  .tm .ph-photo{padding-top:100%}
+  .tm .tb{padding:16px 12px 20px}
+  .tm .nm{font-family:'Playfair Display',serif;font-size:18px;color:var(--carbon)}
+  .tm .rl{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--arena);font-weight:700;margin-top:5px;line-height:1.5}
+  .team-note{max-width:720px;margin:30px auto 0;text-align:center;font-size:14px;color:var(--gris)}
+  .team-note b{color:var(--verde)}
+
+  /* testimonios reagrupados */
+  .testi{background:var(--beige)}
+  .tgroup{max-width:760px;margin:0 auto 30px}
+  .tgroup .glabel{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--arena);font-weight:700;text-align:center;margin-bottom:16px}
+  .vgrid2{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:620px;margin:0 auto}
+  @media(max-width:520px){.vgrid2{grid-template-columns:1fr;max-width:320px}}
+  .tvid{background:#000;border-radius:12px;overflow:hidden;line-height:0}
+  .tvid video{width:100%;height:auto;display:block}
+  .tph{background:var(--verded);border-radius:12px;color:rgba(245,241,234,.7);display:flex;align-items:center;justify-content:center;font-size:12px;letter-spacing:2px;text-transform:uppercase;aspect-ratio:9/16;text-align:center;padding:16px}
+  .disclaimer{max-width:720px;margin:24px auto 0;text-align:center;font-size:12.5px;color:var(--gris);font-style:italic;line-height:1.6}
+
+  /* para quién / no */
+  .twocol{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:900px;margin:0 auto}
+  @media(max-width:720px){.twocol{grid-template-columns:1fr}}
+  .col{border-radius:12px;padding:30px 28px}
+  .col-yes{background:var(--blanco);border-top:4px solid var(--verde)}
+  .col-no{background:var(--beige);border-top:4px solid var(--gris)}
+  .col h3{font-size:19px;margin-bottom:16px;color:var(--carbon)}
+  .col ul{list-style:none}
+  .col li{font-size:14.5px;color:#4a4a44;padding:8px 0 8px 28px;position:relative;line-height:1.5}
+  .col-yes li::before{content:"✓";position:absolute;left:0;color:var(--verde);font-weight:700}
+  .col-no li::before{content:"—";position:absolute;left:0;color:var(--gris);font-weight:700}
+
+  /* cohorte */
+  .cohort{background:var(--verde);color:var(--marfil);text-align:center}
+  .cohort .big{font-family:'Playfair Display',serif;font-size:clamp(60px,12vw,120px);color:var(--arena);line-height:1;margin:6px 0 4px}
+  .cohort h2{color:var(--marfil)}
+  .cohort p{color:rgba(245,241,234,.85);max-width:600px;margin:0 auto 8px}
+
+  /* CTA final */
+  .cta{background:var(--salvia);text-align:center}
+  .cta .tag{color:var(--verde2)}
+  .cta h2{font-size:clamp(26px,4vw,42px);color:var(--verde);margin-bottom:16px;line-height:1.25;max-width:820px;margin-left:auto;margin-right:auto}
+  .cta p{color:rgba(63,90,80,.9);font-size:16px;max-width:600px;margin:0 auto 8px}
+  .cta .quote{background:rgba(63,90,80,.08);border-color:var(--verde);margin:22px auto 26px}
+  .cta .quote p{color:var(--verde)}
+  .cta .brandmark{border-color:rgba(63,90,80,.3);margin-bottom:22px}
+  .cta .brandmark .bm1{color:var(--verde)} .cta .brandmark .bm2{color:var(--verde2)} .cta .brandmark .bm3{color:rgba(63,90,80,.7)}
+
+  /* FAQ */
+  .faq{max-width:760px;margin:0 auto}
+  .faq details{background:var(--blanco);border:1px solid var(--beige);border-radius:8px;margin-bottom:12px;overflow:hidden}
+  .faq summary{cursor:pointer;padding:18px 22px;font-weight:700;color:var(--verde);font-size:15.5px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--arena);font-size:22px;font-weight:400}
+  .faq details[open] summary::after{content:"–"}
+  .faq details p{padding:0 22px 20px;color:#4a4a44;font-size:14.5px;max-width:none}
+
+  /* footer */
+  footer{background:var(--verded);text-align:center;padding:56px 24px 40px}
+  footer .brand{font-family:'Playfair Display',serif;font-size:24px;color:var(--arena)}
+  footer .fsub{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:rgba(245,241,234,.65);margin-top:4px}
+  footer .fblock{margin:24px auto 0;max-width:640px}
+  footer .fh{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--arena);font-weight:700;margin-bottom:6px}
+  footer .fbody{font-size:14px;color:rgba(245,241,234,.8);line-height:1.9}
+  footer .figs{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:22px 0}
+  footer .figs a{color:var(--marfil);text-decoration:none;border:1px solid rgba(255,255,255,.28);border-radius:40px;padding:9px 18px;font-size:12px;letter-spacing:1px;transition:.2s}
+  footer .figs a:hover{background:var(--arena);border-color:var(--arena);color:var(--verde)}
+  footer .flinks{font-size:12px;color:rgba(245,241,234,.5);margin:14px 0}
+  footer .flinks a{color:rgba(245,241,234,.6);text-decoration:none;margin:0 8px}
+  footer .disc{font-size:11.5px;color:rgba(245,241,234,.4);max-width:720px;margin:16px auto 0;line-height:1.7}
+  /* carrusel de mensajes (capturas WhatsApp) */
+  .carousel{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 4px 18px;-webkit-overflow-scrolling:touch}
+  .carousel::-webkit-scrollbar{height:8px}
+  .carousel::-webkit-scrollbar-track{background:transparent}
+  .carousel::-webkit-scrollbar-thumb{background:var(--salvia);border-radius:8px}
+  .cslide{flex:0 0 auto;scroll-snap-align:center}
+  .wa-shot,.wa-ph{width:232px;height:400px;border-radius:14px;display:block}
+  .wa-shot{object-fit:cover;background:#fff;border:1px solid var(--beige)}
+  .wa-ph{background:linear-gradient(160deg,#eef2ec,#dbe3d7);border:1px dashed var(--salvia);display:flex;align-items:center;justify-content:center;text-align:center;color:var(--verde2);font-size:12px;letter-spacing:1px;padding:16px}
+  .carousel-hint{text-align:center;font-size:12px;color:var(--gris);margin-top:2px}
+  @media(max-width:520px){.wa-shot,.wa-ph{width:200px;height:346px}}
+</style>
+
+<!-- ══ 5 · HERO ══ -->
+<section class="hero">
+  <span class="pre">Para mujeres +35 que están acostumbradas a resolver</span>
+  <h1>Construiste mucho.<br>Ahora necesitás una <em>forma diferente</em> de sostenerlo.</h1>
+  <p class="sub">RENACER AFTER 35™ es un proceso de 90 días para revisar cómo estás viviendo, decidiendo y sosteniendo tu vida personal y profesional, sin abandonar todo aquello que te llevó años construir.</p>
+  <div class="brandmark">
+    <div class="bm1">RENACER AFTER 35™</div>
+    <div class="bm2">Método P.E.R.™</div>
+    <div class="bm3">Persona · Empresa · Resultado</div>
+  </div>
+  <div class="cta-wrap">
+    <a href="https://wa.me/5491169323088?text=Hola%2C%20quiero%20saber%20si%20RENACER%20es%20para%20m%C3%AD." class="btn btn-apply btn-big">Quiero saber si Renacer es para mí</a>
+  </div>
+</section>
+
+<!-- ══ 6 · IDENTIFICACIÓN ══ -->
+<section>
+  <div class="container narrow">
+    <span class="tag">Vos sos la que resuelve</span>
+    <h2 class="title">Probablemente nadie tuvo que enseñarte a <em>hacerte cargo</em>.</h2>
+    <p class="body">Aprendiste a resolver. A trabajar. A organizar. A anticiparte. A encontrar una solución cuando algo se complica. A seguir incluso cuando no tenías todas las respuestas.</p>
+    <p class="body">Y así construiste mucho: una profesión, una empresa, una familia, un proyecto, una vida.</p>
+    <p class="body">Y durante mucho tiempo funcionó.</p>
+  </div>
+  <div class="quote" style="margin-top:34px">
+    <p>“No quiero tirar abajo lo que construí… pero tampoco quiero seguir sosteniéndolo de esta manera.”</p>
+  </div>
+</section>
+
+<!-- ══ 7 · VSL ══ -->
+<section class="dark">
+  <div class="head-c">
+    <span class="tag">Antes de hacer otro cambio…</span>
+    <h2 class="title">La forma que te trajo hasta acá quizás no sea la que necesitás para <em>lo que viene</em>.</h2>
+    <p class="body" style="margin-left:auto;margin-right:auto">Antes de tomar otra decisión, empezar otro proyecto, hacer otro curso o intentar organizarte todavía mejor, mirá este video. Andrea y Emmanuel te muestran qué empezaron a observar acompañando a mujeres que habían conseguido mucho, pero comenzaban a preguntarse cómo querían vivir su próxima etapa.</p>
+  </div>
+  <div class="vsl">
+    <div class="ph-video">
+      <div class="in">
+        <div class="play">▶</div>
+        <div class="lbl">[ VSL RENACER AFTER 35 ]</div>
+        <div class="note">Activá el sonido y miralo hasta el final.</div>
+      </div>
+    </div>
+  </div>
+  <div style="text-align:center" class="cta-wrap">
+    <a href="https://wa.me/5491169323088?text=Hola%2C%20quiero%20saber%20si%20RENACER%20es%20para%20m%C3%AD." class="btn btn-apply">Quiero saber si Renacer es para mí</a>
+  </div>
+</section>
+
+<!-- ══ 8 · EL QUIEBRE ══ -->
+<section class="dark" style="background:var(--verde)">
+  <div class="container narrow">
+    <h2 class="title">Todo funciona porque <em>vos hacés</em> que funcione.</h2>
+    <p class="body" style="font-size:18px">Y quizás ahí está algo que nunca habías cuestionado.</p>
+    <div class="stack" style="margin-top:22px">
+      <div class="line">Si alguien no puede, resolvés.</div>
+      <div class="line">Si algo se demora, intervenís.</div>
+      <div class="line">Si delegar lleva demasiado tiempo, lo hacés vos.</div>
+      <div class="line">Si aparece un problema, buscás una solución.</div>
+      <div class="line">Si estás cansada, igualmente cumplís.</div>
+      <div class="line">Si no sabés algo, aprendés.</div>
+      <div class="line">Y como funciona… seguís.</div>
+    </div>
+    <p class="body" style="margin-top:22px">Hasta que empezás a descubrir que gran parte de tu vida depende de que vos estés permanentemente disponible para sostenerla.</p>
+    <p class="remate">No necesitás aprender a poder con más. Necesitás revisar cuánto de todo lo que construiste todavía necesita depender de vos.</p>
+  </div>
+</section>
+
+<!-- ══ 9 · SEÑALES ══ -->
+<section>
+  <div class="container">
+    <div class="head-c">
+      <span class="tag">Quizás todavía no sabés qué querés cambiar</span>
+      <h2 class="title">Pero empezaste a notar <em>algunas cosas</em>.</h2>
+    </div>
+    <div class="cards">
+      <div class="card"><p>“Mi empresa funciona, pero demasiadas cosas siguen dependiendo de mí.”</p></div>
+      <div class="card"><p>“Tengo muchas ideas, pero me cuesta decidir cuál quiero sostener.”</p></div>
+      <div class="card"><p>“Sé resolver para los demás, pero me cuesta responder qué quiero yo.”</p></div>
+      <div class="card"><p>“Estoy siempre pendiente de algo.”</p></div>
+      <div class="card"><p>“Quiero tener más espacio para mí sin abandonar todo lo que construí.”</p></div>
+      <div class="card"><p>“Hace años digo que cuando tenga tiempo voy a volver a ocuparme de mi cuerpo.”</p></div>
+      <div class="card"><p>“No quiero empezar de cero. Quiero vivir diferente.”</p></div>
+    </div>
+    <p class="body" style="text-align:center;margin:30px auto 0">No necesitás identificarte con todas. Quizás alcanza con reconocer que la manera en que venís sosteniendo tu vida ya no es la manera en que querés seguir viviéndola.</p>
+  </div>
+</section>
+
+<!-- ══ 10 · FALSA SOLUCIÓN ══ -->
+<section style="background:var(--beige)">
+  <div class="container">
+    <div class="head-c">
+      <span class="tag">Cuando algo no funciona…</span>
+      <h2 class="title">Hacés lo que siempre hiciste: <em>buscás otra solución</em>.</h2>
+    </div>
+    <div class="chips">
+      <span class="chip">Otro curso</span><span class="chip">Otra formación</span><span class="chip">Otro libro</span>
+      <span class="chip">Otra estrategia</span><span class="chip">Otra agenda</span><span class="chip">Otro proyecto</span><span class="chip">Otra técnica</span>
+    </div>
+    <div class="narrow">
+      <p class="body">Y muchas de esas herramientas pueden servir. Pero existe un problema: estás agregando soluciones a una vida que posiblemente ya estaba llena.</p>
+      <p class="body">Podés saber muchísimo. Tener experiencia. Tener recursos. Tener capacidad. Y aun así seguir postergando determinadas decisiones.</p>
+      <p class="remate" style="color:var(--verde)">Quizás no necesitás agregar algo más. Quizás necesitás revisar qué querés seguir sosteniendo, qué necesitás cambiar y quién querés ser en la etapa que viene.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 11 · PRESENTACIÓN DEL PROGRAMA ══ -->
+<section>
+  <div class="container narrow" style="text-align:center">
+    <span class="tag">Por eso creamos</span>
+    <h2 class="title" style="font-size:clamp(30px,5vw,50px)">RENACER AFTER 35™</h2>
+    <p class="body" style="font-size:19px;color:var(--verde);margin:0 auto 22px;font-weight:400">No para empezar otra vida. Para construir una nueva forma de vivir la que ya creaste.</p>
+    <p class="body" style="margin-left:auto;margin-right:auto">RENACER es un proceso intensivo de 90 días diseñado para mujeres +35 que construyeron mucho y quieren revisar cómo están sosteniendo su vida personal, profesional y física antes de decidir qué quieren para su próxima etapa.</p>
+    <p class="body" style="margin-left:auto;margin-right:auto">No trabajamos una sola parte de vos. Porque tu empresa no está separada de la persona que la dirige. Tu forma de decidir no está separada de tus relaciones. Tu rendimiento no está separado de cómo estás viviendo. Y la vida que querés construir necesita un cuerpo capaz de acompañarla.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container" style="text-align:center">
+    <a href="https://wa.me/5491169323088?text=Hola%2C%20quiero%20saber%20si%20RENACER%20es%20para%20m%C3%AD." class="btn btn-out">Quiero saber si Renacer es para mí</a>
+  </div>
+</section>
+
+<!-- ══ 12 · MÉTODO P.E.R. ══ -->
+<section style="background:var(--beige)">
+  <div class="container">
+    <div class="head-c">
+      <span class="tag">Un método. Tres dimensiones.</span>
+      <h2 class="title">P.E.R.™ — <em>Persona · Empresa · Resultado</em></h2>
+    </div>
+    <div class="per-grid">
+      <div class="per-card">
+        <div class="per-letter">P</div>
+        <div class="k">Persona</div>
+        <h3>¿Quién es la mujer que va a vivir lo que viene?</h3>
+        <div class="items"><span>Identidad</span><span>Voz</span><span>Límites</span><span>Elecciones</span><span>Vínculos</span><span>Creencias</span><span>Dirección personal</span></div>
+        <div class="note">No quién eras. No quién esperan que seas. Quién sos hoy y qué querés ahora.</div>
+      </div>
+      <div class="per-card">
+        <div class="per-letter">E</div>
+        <div class="k">Empresa</div>
+        <h3>¿Cómo llevás esa nueva dirección a tu realidad?</h3>
+        <div class="items"><span>Decisiones</span><span>Liderazgo</span><span>Delegación</span><span>Estructura</span><span>Agenda</span><span>Prioridades</span><span>Trabajo</span><span>Negocio</span></div>
+        <div class="note">Empresa no significa únicamente tener una compañía: es el espacio donde hacés, dirigís, producís y construís. Comprender algo sobre vos importa, pero necesitamos que mañana empieces a decidir diferente.</div>
+      </div>
+      <div class="per-card">
+        <div class="per-letter">R</div>
+        <div class="k">Resultado</div>
+        <h3>¿Cómo sabemos que realmente algo cambió?</h3>
+        <div class="items"><span>Decisiones tomadas</span><span>Límites aplicados</span><span>Conversaciones realizadas</span><span>Responsabilidades reorganizadas</span><span>Acciones ejecutadas</span><span>Nuevas capacidades</span></div>
+        <div class="note">La conciencia importa cuando empieza a modificar tu realidad.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 13 · LOS CUATRO TERRITORIOS ══ -->
+<section>
+  <div class="container">
+    <div class="head-c">
+      <h2 class="title">Una mujer no vive en <em>compartimentos</em>.</h2>
+      <p class="lead">Por eso RENACER integra cuatro áreas dentro de un mismo proceso.</p>
+    </div>
+    <div class="terr-grid">
+      <div class="terr-card">
+        <div class="ph-photo"><span>[ Foto Andrea ]</span></div>
+        <div class="terr-body">
+          <div class="who">Andrea</div>
+          <div class="role">Persona · Identidad · Elección · Relaciones</div>
+          <div class="q">¿Quién sos cuando dejás de responder solamente desde tus roles?</div>
+          <p>Trabajamos voz, límites, elecciones, relaciones y dirección personal.</p>
+        </div>
+      </div>
+      <div class="terr-card">
+        <div class="ph-photo"><span>[ Foto Emmanuel ]</span></div>
+        <div class="terr-body">
+          <div class="who">Emmanuel</div>
+          <div class="role">Empresa &amp; Resultado · Decisión · Dirección · Liderazgo</div>
+          <div class="q">¿Qué de todo lo que construiste todavía depende innecesariamente de vos?</div>
+          <p>Trabajamos decisiones, estructura, delegación, liderazgo y ejecución.</p>
+        </div>
+      </div>
+      <div class="terr-card">
+        <div class="ph-photo"><span>[ Foto Ruth ]</span></div>
+        <div class="terr-body">
+          <div class="who">Ruth</div>
+          <div class="role">PRANA-FIT · Reconexión Neurosomática</div>
+          <div class="q">¿Cómo estás sosteniendo el ritmo que construiste?</div>
+          <p>Trabajamos herramientas de recuperación y reconexión corporal aplicables a tu vida cotidiana.</p>
+        </div>
+      </div>
+      <div class="terr-card">
+        <div class="ph-photo"><span>[ Foto Ludmila ]</span></div>
+        <div class="terr-body">
+          <div class="who">Ludmila</div>
+          <div class="role">Capacidad · Fuerza · Movimiento · Entrenamiento</div>
+          <div class="q">¿Qué necesitás que tu cuerpo pueda hacer durante los próximos años?</div>
+          <p>Entrenamiento progresivo adaptado a tu punto de partida para desarrollar fuerza, movimiento y capacidad física.</p>
+        </div>
+      </div>
+    </div>
+    <p class="terr-close">Identidad. Dirección. Recuperación. Capacidad.<br>Una sola mujer.</p>
+  </div>
+</section>
+
+<!-- ══ VOCES REALES 1 ══ -->
+<section style="background:var(--blanco)">
+  <div class="container">
+    <div class="head-c"><span class="tag">Voces reales</span><h2 class="title">Mujeres que hicieron un proceso <em>con nosotros</em></h2></div>
+    <div class="vgrid2">
+      <div class="tvid"><video src="testi1.mp4" poster="testi1.jpg" controls playsinline preload="metadata"></video></div>
+      <div class="tvid"><video src="testi2.mp4" poster="testi2.jpg" controls playsinline preload="metadata"></video></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 14 · CÓMO ES EL PROCESO ══ -->
+<section style="background:var(--beige)">
+  <div class="container">
+    <div class="head-c">
+      <span class="tag">No es un curso para mirar</span>
+      <h2 class="title">Son 90 días para trabajar sobre <em>tu realidad</em>.</h2>
+      <p class="lead">Un acompañamiento pensado para tu vida real: se integra a tu semana, no la ocupa. Avanzás sobre lo tuyo, a tu ritmo, con guía en cada área.</p>
+    </div>
+    <div class="breakdown">
+      <div class="bk"><div class="n">Persona</div><div class="a">con Andrea</div><p>Elecciones · relaciones · dirección personal</p></div>
+      <div class="bk"><div class="n">Empresa &amp; Resultado</div><div class="a">con Emmanuel</div><p>Decisiones · estructura · liderazgo</p></div>
+      <div class="bk"><div class="n">Capacidad</div><div class="a">con Ludmila</div><p>Fuerza · movimiento · progresión</p></div>
+      <div class="bk"><div class="n">Recuperación</div><div class="a">con Ruth · PRANA-FIT</div><p>Reconexión Neurosomática · regulación · recuperación</p></div>
+      <div class="bk"><div class="n">Integración P.E.R.™</div><div class="a">con Andrea + Emmanuel</div><p>Persona · Empresa · Resultado</p></div>
+    </div>
+    <p class="remate" style="color:var(--verde);text-align:center;margin-left:auto;margin-right:auto">No son procesos independientes. Es un mismo proceso, acompañado desde cada área y distribuido a lo largo de los 90 días.</p>
+  </div>
+</section>
+
+<!-- ══ CARRUSEL DE MENSAJES 1 ══ -->
+<section>
+  <div class="container">
+    <div class="head-c">
+      <span class="tag">Mensajes reales</span>
+      <h2 class="title">Lo que nos <em>escriben</em></h2>
+      <p class="lead">Capturas reales de mujeres que hicieron un proceso con nuestro equipo.</p>
+    </div>
+    <div class="carousel">
+      <div class="cslide"><img class="wa-shot" src="wa-01.jpg" alt="Mensaje 01" data-ph="wa-01.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-02.jpg" alt="Mensaje 02" data-ph="wa-02.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-03.jpg" alt="Mensaje 03" data-ph="wa-03.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-04.jpg" alt="Mensaje 04" data-ph="wa-04.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-05.jpg" alt="Mensaje 05" data-ph="wa-05.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-06.jpg" alt="Mensaje 06" data-ph="wa-06.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-07.jpg" alt="Mensaje 07" data-ph="wa-07.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-08.jpg" alt="Mensaje 08" data-ph="wa-08.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-09.jpg" alt="Mensaje 09" data-ph="wa-09.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-10.jpg" alt="Mensaje 10" data-ph="wa-10.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-11.jpg" alt="Mensaje 11" data-ph="wa-11.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-12.jpg" alt="Mensaje 12" data-ph="wa-12.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-13.jpg" alt="Mensaje 13" data-ph="wa-13.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-14.jpg" alt="Mensaje 14" data-ph="wa-14.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-15.jpg" alt="Mensaje 15" data-ph="wa-15.jpg" loading="lazy"></div>
+    </div>
+    <p class="carousel-hint">Deslizá para ver más →</p>
+  </div>
+</section>
+
+<!-- ══ 15 · DIRECCIÓN DEL PROGRAMA ══ -->
+<section>
+  <div class="container">
+    <div class="head-c">
+      <span class="tag">Quiénes crearon Renacer</span>
+      <h2 class="title">Andrea + <em>Emmanuel</em></h2>
+      <p class="lead">Dirección de RENACER AFTER 35™ · Creadores del Método P.E.R.™</p>
+    </div>
+    <div class="dir-grid">
+      <div class="dir-card">
+        <div class="ph-photo"><span>[ Foto Andrea ]</span></div>
+        <div class="dir-body">
+          <h3>Andrea Dávila</h3>
+          <div class="role">Cofundadora · Dirección Persona</div>
+          <p>Andrea acompaña el trabajo sobre identidad, elecciones, límites, relaciones y dirección personal.</p>
+          <div class="q">“¿Qué querés vos ahora?”</div>
+        </div>
+      </div>
+      <div class="dir-card">
+        <div class="ph-photo"><span>[ Foto Emmanuel ]</span></div>
+        <div class="dir-body">
+          <h3>Emmanuel Batallanos</h3>
+          <div class="role">Cofundador · Dirección Empresa &amp; Resultado</div>
+          <p>Emmanuel trabaja sobre la traducción de la claridad personal hacia decisiones, estructura, liderazgo y ejecución.</p>
+          <div class="q">“¿Qué vas a hacer diferente con lo que acabás de descubrir? ¿Qué decisión sigue?”</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 16 · EQUIPO DE MENTORÍA ══ -->
+<section style="background:var(--beige)">
+  <div class="container">
+    <div class="head-c">
+      <h2 class="title">Dos directores. Cuatro mentores. <em>Un solo proceso</em>.</h2>
+    </div>
+    <div class="team">
+      <div class="tm"><div class="ph-photo"><span>[ Foto Andrea ]</span></div><div class="tb"><div class="nm">Andrea</div><div class="rl">Persona · Identidad · Elecciones</div></div></div>
+      <div class="tm"><div class="ph-photo"><span>[ Foto Emmanuel ]</span></div><div class="tb"><div class="nm">Emmanuel</div><div class="rl">Empresa · Dirección · Resultado</div></div></div>
+      <div class="tm"><div class="ph-photo"><span>[ Foto Ruth ]</span></div><div class="tb"><div class="nm">Ruth</div><div class="rl">PRANA-FIT · Reconexión Neurosomática</div></div></div>
+      <div class="tm"><div class="ph-photo"><span>[ Foto Ludmila ]</span></div><div class="tb"><div class="nm">Ludmila</div><div class="rl">Fuerza · Movimiento · Capacidad</div></div></div>
+    </div>
+    <p class="team-note">Andrea y Emmanuel dirigen y crearon el método; Ruth y Ludmila son mentoras especialistas integradas dentro de RENACER. No es un grupo de profesionales independientes: es <b>una dirección, un método, un proceso y cuatro mentores</b>.</p>
+  </div>
+</section>
+
+<!-- ══ VOCES REALES 2 ══ -->
+<section style="background:var(--blanco)">
+  <div class="container">
+    <div class="head-c"><span class="tag">Más voces reales</span><h2 class="title">Historias de <em>cambio</em></h2></div>
+    <div class="vgrid2">
+      <div class="tvid"><video src="testi3.mp4" poster="testi3.jpg" controls playsinline preload="metadata"></video></div>
+      <div class="tvid"><video src="testi4-web.mp4" poster="testi4.jpg" controls playsinline preload="metadata"></video></div>
+    </div>
+    <p class="disclaimer">Experiencias reales de mujeres que realizaron procesos de acompañamiento con nuestro equipo. Los resultados individuales pueden variar.</p>
+  </div>
+</section>
+
+<!-- ══ 18 · FUTURE PACING ══ -->
+<section class="dark" style="background:var(--verded)">
+  <div class="container narrow">
+    <span class="tag">Ahora pensá en vos</span>
+    <h2 class="title">¿Qué tendría que ser diferente dentro de 90 días para que esto <em>haya valido la pena</em>?</h2>
+    <p class="body">No te prometemos una vida perfecta. Ni cero problemas. Ni convertirte en otra persona. Pero imaginá empezar a poder decir:</p>
+    <div class="stack">
+      <div class="line">“Hoy tengo más claro qué quiero.”</div>
+      <div class="line">“Estoy tomando decisiones que venía postergando.”</div>
+      <div class="line">“No todo tiene que pasar por mí.”</div>
+      <div class="line">“Mi trabajo tiene un lugar en mi vida, pero ya no ocupa todos los lugares.”</div>
+      <div class="line">“Estoy haciendo espacio para mí.”</div>
+      <div class="line">“Volví a ocuparme de mi cuerpo.”</div>
+      <div class="line">“Estoy construyendo lo que viene de otra manera.”</div>
+    </div>
+    <p class="remate">Esa es la dirección de RENACER.</p>
+  </div>
+</section>
+
+<!-- ══ CARRUSEL DE MENSAJES 2 ══ -->
+<section style="background:var(--beige)">
+  <div class="container">
+    <div class="head-c">
+      <span class="tag">Más mensajes reales</span>
+      <h2 class="title">Seguí <em>leyendo</em></h2>
+      <p class="lead">Más capturas de mujeres que atravesaron un proceso con nosotros.</p>
+    </div>
+    <div class="carousel">
+      <div class="cslide"><img class="wa-shot" src="wa-16.jpg" alt="Mensaje 16" data-ph="wa-16.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-17.jpg" alt="Mensaje 17" data-ph="wa-17.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-18.jpg" alt="Mensaje 18" data-ph="wa-18.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-19.jpg" alt="Mensaje 19" data-ph="wa-19.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-20.jpg" alt="Mensaje 20" data-ph="wa-20.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-21.jpg" alt="Mensaje 21" data-ph="wa-21.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-22.jpg" alt="Mensaje 22" data-ph="wa-22.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-23.jpg" alt="Mensaje 23" data-ph="wa-23.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-24.jpg" alt="Mensaje 24" data-ph="wa-24.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-25.jpg" alt="Mensaje 25" data-ph="wa-25.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-26.jpg" alt="Mensaje 26" data-ph="wa-26.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-27.jpg" alt="Mensaje 27" data-ph="wa-27.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-28.jpg" alt="Mensaje 28" data-ph="wa-28.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-29.jpg" alt="Mensaje 29" data-ph="wa-29.jpg" loading="lazy"></div>
+      <div class="cslide"><img class="wa-shot" src="wa-30.jpg" alt="Mensaje 30" data-ph="wa-30.jpg" loading="lazy"></div>
+    </div>
+    <p class="carousel-hint">Deslizá para ver más →</p>
+  </div>
+</section>
+
+<!-- ══ 19 · PARA QUIÉN ══ -->
+<section>
+  <div class="container">
+    <div class="head-c"><h2 class="title">RENACER <em>no es para todas</em>.</h2></div>
+    <div class="twocol">
+      <div class="col col-yes">
+        <h3>Puede ser para vos si…</h3>
+        <ul>
+          <li>Tenés +35.</li>
+          <li>Construiste una profesión, empresa, proyecto o vida con responsabilidades importantes.</li>
+          <li>Estás acostumbrada a resolver.</li>
+          <li>Sabés que hay cosas que querés cambiar.</li>
+          <li>No querés tirar abajo lo que construiste.</li>
+          <li>Querés participar activamente.</li>
+          <li>Estás dispuesta a revisar decisiones.</li>
+          <li>Querés convertir lo trabajado en acciones.</li>
+          <li>Buscás acompañamiento y no una solución mágica.</li>
+        </ul>
+      </div>
+      <div class="col col-no">
+        <h3>Probablemente no sea para vos si…</h3>
+        <ul>
+          <li>Buscás únicamente consumir contenido.</li>
+          <li>Querés que otra persona tome tus decisiones.</li>
+          <li>Esperás resultados sin involucrarte.</li>
+          <li>Buscás una transformación instantánea.</li>
+          <li>Necesitás exclusivamente atención clínica o médica especializada.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 20 · PRIMERA COHORTE ══ -->
+<section class="cohort">
+  <div class="container narrow">
+    <span class="tag" style="color:var(--arena)">Primera cohorte · Cupos limitados</span>
+    <div class="big">10</div>
+    <h2 class="title" style="color:var(--marfil)">Solo 10 lugares</h2>
+    <p>Esta primera apertura está limitada a 10 participantes debido al nivel de acompañamiento individual incluido durante los 90 días.</p>
+    <div class="cta-wrap">
+      <a href="https://wa.me/5491169323088?text=Hola%2C%20quiero%20postularme%20a%20RENACER." class="btn btn-apply btn-big">Quiero postularme a Renacer</a>
+      <small class="micro" style="color:rgba(245,241,234,.7)">Completar la aplicación no te compromete a ingresar. Primero queremos conocer tu situación, qué estás sosteniendo y qué querés construir, para evaluar si RENACER es adecuado para este momento.</small>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 21 · CTA FINAL ══ -->
+<section class="cta">
+  <div class="container narrow">
+    <span class="tag">Lo que te trajo hasta acá te sirvió</span>
+    <h2>Pero no tenés que vivir los próximos años de la misma manera.</h2>
+    <p>No necesitás abandonar tu empresa. No necesitás renunciar a tu profesión. No necesitás tirar abajo tu familia. No necesitás desconocer todo lo que lograste. Quizás necesitás aprender una nueva forma de sostenerlo.</p>
+    <div class="quote"><p>No necesitás volver a empezar. Quizás necesitás volver a elegirte.</p></div>
+    <div class="brandmark">
+      <div class="bm1">RENACER AFTER 35™</div>
+      <div class="bm2">Método P.E.R.™</div>
+      <div class="bm3">Persona · Empresa · Resultado</div>
+    </div>
+    <div class="cta-wrap">
+      <a href="https://wa.me/5491169323088?text=Hola%2C%20quiero%20saber%20si%20RENACER%20es%20para%20m%C3%AD." class="btn btn-apply btn-big">Quiero saber si Renacer es para mí</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 22 · FAQ ══ -->
+<section style="background:var(--beige)">
+  <div class="container">
+    <div class="head-c"><span class="tag">Preguntas frecuentes</span><h2 class="title">Lo que solés <em>querer saber</em></h2></div>
+    <div class="faq">
+      <details><summary>¿Qué es RENACER AFTER 35™?</summary><p>Un programa de acompañamiento de 90 días basado en el Método P.E.R.™ — Persona, Empresa y Resultado — que integra mentorías individuales y grupales.</p></details>
+      <details><summary>¿Necesito tener una empresa?</summary><p>No necesariamente. La dimensión Empresa también trabaja cómo organizás, dirigís y llevás a la realidad tu actividad profesional, proyecto o aquello que construís.</p></details>
+      <details><summary>¿Es individual o grupal?</summary><p>Ambos. El programa contempla 36 espacios individuales y 36 encuentros grupales durante los 90 días.</p></details>
+      <details><summary>¿Cuánto dura?</summary><p>90 días.</p></details>
+      <details><summary>¿Necesito estar entrenando actualmente?</summary><p>No. El trabajo físico parte del punto de partida de cada participante y debe adaptarse a sus condiciones particulares.</p></details>
+      <details><summary>¿RENACER reemplaza terapia o tratamiento médico?</summary><p>No. RENACER es un programa de mentoría y acompañamiento y no sustituye tratamientos médicos, psicológicos, psiquiátricos, fisioterapéuticos u otros tratamientos profesionales cuando sean necesarios.</p></details>
+      <details><summary>¿Cómo ingreso?</summary><p>Primero completás una aplicación. Evaluamos tu situación y, si existe encaje entre lo que necesitás y el programa, avanzamos a una conversación.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 23 · FOOTER ══ -->
+<footer>
+  <div class="brand">RENACER AFTER 35™</div>
+  <div class="fsub">Método P.E.R.™ · Persona · Empresa · Resultado</div>
+
+  <div class="fblock">
+    <div class="fh">Dirección y creación</div>
+    <div class="fbody">Andrea + Emmanuel Batallanos</div>
+  </div>
+  <div class="fblock">
+    <div class="fh">Equipo de mentoría</div>
+    <div class="fbody">Andrea · Emmanuel · Ruth Fruto · Ludmila</div>
+  </div>
+
+  <div class="figs">
+    <a href="[INSTAGRAM ANDREA]" target="_blank" rel="noopener">Instagram · Andrea</a>
+    <a href="[INSTAGRAM EMMANUEL]" target="_blank" rel="noopener">Instagram · Emmanuel</a>
+    <a href="https://www.instagram.com/pranafit.ruth/" target="_blank" rel="noopener">Instagram · Ruth</a>
+    <a href="[INSTAGRAM LUDMILA]" target="_blank" rel="noopener">Instagram · Ludmila</a>
+  </div>
+
+  <div class="flinks"><a href="https://wa.me/5491169323088?text=Hola%2C%20quiero%20saber%20si%20RENACER%20es%20para%20m%C3%AD.">Contacto</a> · <a href="#">Política de privacidad</a> · <a href="#">Términos</a></div>
+
+  <p class="disc">RENACER AFTER 35™ es un programa de mentoría, educación y acompañamiento. No sustituye atención médica, psicológica, psiquiátrica, nutricional, fisioterapéutica ni otros tratamientos profesionales cuando correspondan. Los resultados dependen de múltiples factores individuales y no se garantizan resultados específicos.</p>
+</footer>
+
+<script>
+document.querySelectorAll('img.wa-shot').forEach(function(im){
+  im.addEventListener('error',function(){
+    var d=document.createElement('div');
+    d.className='wa-ph';
+    d.textContent=(im.getAttribute('data-ph')||'foto')+' · pendiente';
+    im.replaceWith(d);
+  });
+});
+</script>
+</body>
+</html>
